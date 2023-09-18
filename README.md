@@ -60,13 +60,22 @@ Você pode executar o projeto a partir do IntelliJ IDEA clicando com o botão di
 - Spring Boot
 - Java
 - IntelliJ IDEA
+- Railway
+
+```properties
+spring_profiles_active=prod
+PROD_DB_HOST=containers-us-west-197.railway.app
+PROD_DB_PORT=6053
+PROD_DB_NAME=railway
+PROD_DB_PASSWORD=*******
+PROD_DB_USERNAME=mysql
+```
+[Link para o Deploy do Backend](https://ibm-production.up.railway.app/times)
 
 **Desenvolvedora**
 
 Desenvolvido por Nathalia Rezende.
 
 **Licença**
-
-Copyright (c) 2023 Nathalia Rezende
 
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
